@@ -3,7 +3,7 @@ defaults: &defaults
     # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
     - image: circleci/golang:1.8
 
-  working_directory: /go/src/github.com/building-microservices-with-go/chapter11-services-main
+  working_directory: /go/src/github.com/ScottAI/terraformexample
 
   environment:
     TEST_RESULTS: /tmp/test-results
